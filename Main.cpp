@@ -38,18 +38,6 @@ int main()
 		}
 	}
 
-	//avhw18::TimeData td;
-	//std::cout << "td = " << td << std::endl;
-	//auto vs = avhw18::TimeData::ts_converter(td);
-	//for (const auto& s : vs) std::cout << s << std::endl;
-	//auto ctd = avhw18::TimeData::st_converter(vs);
-	//std::cout << "ctd = " << ctd << std::endl;
-
-	//const std::string STR = "строка";
-	//std::string s{ STR };
-	//if (s.empty()) std::cout << "s ->" << s << "<-" << std::endl;
-	//else std::cout << "s = " << s << std::endl;
-
 	std::cout << std::endl << "Работа программы прекращена" << std::endl;
 	std::cin.get();
 	return 0;
